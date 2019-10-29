@@ -16,7 +16,7 @@
     margin: 0;
     }
         
-    section {
+    /* section { 
         color: black;
         align-items: center;
         flex-direction: column;
@@ -26,11 +26,26 @@
         width: 100vw;
         text-align: center;
         
-    }
+    }*/
     
-  
+    h1 { 
+        font-size: 3em; 
+        text-align: center;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        transition: all .5s ease;
+      }
+      
+      h1:hover { font-size: 4em; color: red; }
+      
+      @media screen and (max-width: 1000px){
+        h1 { 
+          font-size: 4em;
+          color: red;
+        }
+      }
     
-    a {
+    /* a { 
         text-decoration: none;
         color: gray;
         place-content: bottom;
@@ -87,5 +102,5 @@
         transform: rotate(-360deg);
 
      }
-     
+     */
 
