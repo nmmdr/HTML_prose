@@ -4,7 +4,7 @@
     NAVIGATION
 
     html{
-        height: 100%;
+        /* height: 100%; */
     }
     
     body {
@@ -12,8 +12,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100%;
-    margin: 0;
+    /* min-height: 100%; */
+    margin-top: 100px;
     }
         
     section {
@@ -22,8 +22,8 @@
         flex-direction: column;
         display: flex;
         justify-content: center;
-        height: 100vh;
-        width: 100vw;
+        /* height: 100vh; */
+        /* width: 100vw; */
         text-align: center;
         
     }
@@ -57,7 +57,7 @@
         color: gray;
     }
     */
-
+/*  
 #parent {
     width: 100%;
     height: 100%;
@@ -86,6 +86,7 @@
         background-color: white;
       
     }
+    */
 
     section:hover a {
         display: block;
@@ -94,7 +95,7 @@
 
     a {
         text-decoration: none;
-        color: white;
+        color: black;
     }
     a:hover {
         color: black;
@@ -116,12 +117,15 @@
 
      h1 { 
         font-family:'Roboto Slab', serif;
-        font-size: 8em; 
+        font-size: 5em; 
         text-align: center;
+         -webkit-transition: all .50s ease;
+        -moz-transition: all .50s ease;
+        transition: all .50s ease; 
         
       }
       
-      h1:hover { font-size: 2em;  }
+       h1:hover { font-size: 2em;  
       
       @media screen and (max-width: 1000px){
         h1 { 
@@ -129,17 +133,25 @@
           
         }
       }
-      .text {
-        -webkit-transition: all .10s ease;
-        -moz-transition: all .10s ease;
-        transition: all .10s ease;
+       
+      .container {
+          text-align: center;
+        
+          width: 800px;
+          height:500px;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        transition: all .5s ease;
       }
+      /* .box{
+          display: inline-block;
+      }
+
+      .container:hover{
+          width: 50%;
+          height:300px;
+      } */
      
-     h1 div {
-        height: 0;
-        width: 0;
-        transition: all 4s ease-in-out;
-     }
      /*  
      h1:hover {
         color: coral;

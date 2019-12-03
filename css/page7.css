@@ -1,9 +1,11 @@
 html{
     height: 100%;
+    
 }
 
 body {
     
+  background-image: url("../source.gif");
 display: flex;
 justify-content: center;
 align-items: center;
@@ -73,6 +75,8 @@ a:hover {
 h1 {
 
     font-family:'Roboto Slab', serif;
+    text-decoration-color: white;
+    color: white;
 }
 
 
@@ -83,7 +87,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: black; 
+    color: white; 
     align-items: flex-end;
 }
 

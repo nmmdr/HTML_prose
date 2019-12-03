@@ -3,13 +3,45 @@ html{
 }
 
 body {
-    
+/* background-image: url(../source.gif);
+opacity:; */
 display: flex;
 justify-content: center;
 align-items: center;
 min-height: 100%;
-margin: 0;
+
+    animation: body 3s linear infinite alternate;
+    -webkit-animation: body 3s linear infinite alternate;
+  }
+  
+  @keyframes body {
+    0% {
+      background-color: crimson; 
+    }
+  
+    50% { 
+     background-color: black;
+    }
+    
+    100% {
+     background-color: crimson;
+    }
+  }
+
+  @-webkit-keyframes body
+  0% {
+    background-color: crimson; 
+  }
+
+  50% { 
+   background-color: black;
+  }
+  
+  100% {
+   background-color: crimson;
+  }
 }
+  
     
 .container {
     color: black;
@@ -73,6 +105,7 @@ a:hover {
 h1 {
 
     font-family:'Roboto Slab', serif;
+    font-size: 8rem;
 }
 
 
@@ -87,11 +120,11 @@ a {
     align-items: flex-end;
 }
 
-img {
+/* img {
     align-items: stretch;
-    height: 100%;
-    width: 100%;
-}
+    
+    opacity: 30%;
+} */
     
 
 
