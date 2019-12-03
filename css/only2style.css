@@ -33,13 +33,33 @@
     #one, #two, #three {
         width: 500px;
     }
+     a {   
+        font-size: 3em; 
+        text-align: center;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        transition: all .5s ease;
+      }
+      
+      h1:hover { font-size: 2em; color: red; }
+      
+      @media screen and (max-width: 1000px){
+        h1 { 
+          font-size: 2em;
+          color: red;
+        }
+      }
     
-    
-    a {
+    h1 {
         text-decoration: none;
         color: black;
         font-size: 15rem;
         text-align: left;
+        /* font-size: 3em;  */
+        text-align: center;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        transition: all .5s ease;
     }
     
     /* section p {
@@ -69,7 +89,7 @@
     }
     
 
-    section:hover a {
+    /* section:hover a { 
         display: block;
         visibility: visible;
         
@@ -84,9 +104,9 @@
         
     }
     
-    h1 {
+    /* h1 { 
        
-        
+    
         font-size: 8rem;
         font-display: flex;
         align-items: center;
@@ -95,12 +115,6 @@
         transition: transform 4s ease-in-out;
      }
      
-    
-     
-
-
-
-
      h1 div {
         height: 0;
         width: 0;
@@ -109,7 +123,7 @@
        
      
 
-     
+     }
 
      h2 {
         color: darkgray;
@@ -123,7 +137,7 @@
         padding-right: 15rem;
         
 
-     }
+     }*/
      
      
 

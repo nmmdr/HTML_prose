@@ -6,20 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Project Title</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/5style.css">
+    <link rel="stylesheet" href="css/page5.css">
+    <link href="https://fonts.googleapis.com/css?family=Alata|Comfortaa|Notable|PT+Mono|Press+Start+2P|Roboto+Slab|Rubik+Mono+One|Special+Elite&display=swap" rel="stylesheet">
     <title>HTML Prose3</title>
 </head>
-<img src="ZOarp5x.gif"><a href="page6.html"></a>
+
 
 <body>
-    <section>
-        
-        <h1><a href="page6.html">but these long walls have narrowed
-            so quickly that I am in the last chamber
-            already, and there in the corner stands
-            the trap that I must run into.”</a>
-        </h1>
-        
-    </section>
+        <div class="container">
+            <div class="img">
+                    <img src="source.gif"><a href="page6.html"></a>
+            </div>
+            <div class="text">
+                    <h1>
+                        <a href="page6.html">but these long walls have narrowed
+                            so quickly that I am in the last chamber
+                            already, and there in the corner stands
+                            the trap that I must run into.”
+                        </a>
+                    </h1>
+            </div>
+        </div>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>
+    $('a').hover(function() {
+        $('.container').addClass('hovered');
+    }, function() {
+        $('.container').removeClass('hovered');
+    })
+</script>
 </html>

@@ -1,0 +1,107 @@
+html{
+    height: 100%;
+}
+
+body {
+    
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100%;
+margin: 0;
+}
+    
+.container {
+    color: black;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.container .img {
+    width: 30%;
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+}
+
+.container .text {
+    width: 70%;
+    /* height: 100%; */
+    transition: width 0.5s ease-in-out;
+}
+
+.hovered .img {
+    width: 70%!important; 
+}
+.hovered .text {
+    width: 30%!important;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: gray;
+    place-content: bottom;
+}
+
+/* section p {
+    display: none;
+
+}  */
+
+/*  
+section:hover {
+    background-color: black;
+    color: antiquewhite;
+    
+}
+*/
+
+/*  
+a:hover {
+    text-decoration: none;
+    color: gray;
+}
+*/
+
+h1 {
+
+    font-family:'Roboto Slab', serif;
+}
+
+
+/* section:hover a {
+    display: block;
+    visibility: visible;
+} */
+
+a {
+    text-decoration: none;
+    color: black; 
+    align-items: flex-end;
+}
+
+img {
+    align-items: stretch;
+    height: 100%;
+    width: 100%;
+}
+    
+
+
+    }
+    /*  
+    h1:hover {
+    color: coral;
+    transform: rotate(-360deg);
+
+    }
+    */
+    
+

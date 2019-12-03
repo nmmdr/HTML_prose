@@ -60,7 +60,7 @@
     */
 
     h1: hover {transform: scale(5%);
-
+        font-family:'Roboto Slab', serif;
     }
     
 
